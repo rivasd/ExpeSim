@@ -32,4 +32,5 @@ class StimFetcher(BaseStim):
     
   def __init__(self, searchString=None, *args, **kwargs):
     self.searchString = searchString or "{difficulty}\\{type}\\pair{number}-{type}{distance}{pair}"
+    super(StimFetcher, self).__init__(*args, **kwargs)
     
