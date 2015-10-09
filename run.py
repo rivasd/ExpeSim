@@ -38,7 +38,8 @@ def startExperiment():
 	#DEBUG STATEMENT
 	print configBox.data
 	print handle
-	#this represent the window in which the experiment will be displayed 
+	
+	#this represent the window in which the experiment will be displayed
 	display = visual.Window(size=(1024, 760), fullscr=True, monitor = 'testMonitor', color='white')
 	
 	#this is a useful object to manage the order of trials and most of all save data! check the PsychoPy documentation to learn
@@ -48,4 +49,6 @@ def startExperiment():
 #if this file is executed (and not just imported for future use in another script), then simply run the experiment
 if __name__ == '__main__':
 	startExperiment()
+	
+
 		
